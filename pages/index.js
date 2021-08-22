@@ -5,7 +5,12 @@ import styles from '../styles/Home.module.css'
 
 export default function Home() {
   return (
-    <div> 
+    <div className={styles.container}>
+    <Head>
+      <title>Site Oficial da Tropa da Linha de Sintra</title>
+      <meta name="description" content="@vieiraxyz" />
+      <link rel="icon" href="/floyder.bmp" />
+      </Head>
     <Image src="/bandeira_3.png" alt="bandeira da tropa" width={1920} height={1080} />
     <figure>
     <audio
