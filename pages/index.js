@@ -11,6 +11,16 @@ export default function Home() {
       <meta name="description" content="@vieiraxyz" />
       <link rel="icon" href="/floyder.bmp" />
       </Head>
+      <figure>
+    <audio
+        autoPlay
+        loop
+        controls
+        src="./LS.mp3">
+            Your browser does not support the
+            <code>audio</code> element.
+    </audio>
+</figure>
     <Image src="/bandeira_3.png" alt="bandeira da tropa" width={1920} height={1080} />
     <figure>
     <audio
